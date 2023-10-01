@@ -1,0 +1,47 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    
+}
+#openingHeader {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 13rem;
+    position: fixed;
+    z-index: 1;
+}
+#firstPic {
+    width: 10rem;
+    height: auto;
+    margin-left: 5rem;
+    padding: 15px;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+#welcome {
+    text-align: center;
+    margin-top: -9rem;
+    margin-left: 19rem;
+    font-family: 'Architects Daughter';
+    font-size: 2rem;
+}
+#secondDiv {
+    background-image: url("images/wallowa1.jpg");
+    margin-top: 11rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.4;
+    background-position: left top;
+}
+#secondPic {
+    width: 100%;
+    height: auto;
+}
+#thirdDiv {
+    background-color: antiquewhite;
+}
+#history {
+    
+}
