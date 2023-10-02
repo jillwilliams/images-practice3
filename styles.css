@@ -1,47 +1,130 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
+}
 body {
-    
-}
-#openingHeader {
-    background-color: antiquewhite;
-    width: 100%;
-    height: 13rem;
-    position: fixed;
-    z-index: 1;
-}
-#firstPic {
-    width: 10rem;
-    height: auto;
-    margin-left: 5rem;
-    padding: 15px;
-    margin-top: 13px;
-    margin-bottom: 25px;
-}
-#welcome {
-    text-align: center;
-    margin-top: -9rem;
-    margin-left: 19rem;
-    font-family: 'Architects Daughter';
-    font-size: 2rem;
-}
-#secondDiv {
-    background-image: url("images/wallowa1.jpg");
-    margin-top: 11rem;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.4;
-    background-position: left top;
+    background-color: white;
+    background-size: 100%;
 }
-#secondPic {
+/* Full screen wallowa lake */
+#pic1 {
     width: 100%;
     height: auto;
+    padding-top: 0rem;
+    /* opacity: 0.8; */
+    position: fixed;
+    z-index: -1;
 }
-#thirdDiv {
-    background-color: antiquewhite;
-}
-#history {
+
+/* table */
+#header {
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
     
+
+
+}
+/* forest left */
+#forest1 {
+    padding-top: 0.1rem;
+    margin-right: 20rem;
+    padding-bottom: 1rem;
+
+}
+/* text 'welcome to wallowa lake' */
+#welcome {
+    font-family: 'Architects Daughter';
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: white;
+    
+}
+/* forest right */
+#forest2 {
+    padding-top: 0.1rem;
+    margin-left: 20rem;
+    padding-bottom: 1rem;
+}
+/* text 'history of wallowa lake' */
+#history {
+    margin-top: 30rem;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Architects Daughter';
+    text-align: center;
+    opacity: 0.4;
+}
+/* text history */
+#history1 {
+    margin-top: 10rem;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Architects Daughter';
+    text-align: center;
+    margin-top: 4rem;
+    opacity: 0.4;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* div photos */
+#photos {
+    background-color: white;
+
+}
+/* text 'photos of wallowa lake' */
+#photos1 {
+    margin-top: 5rem;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Architects Daughter';
+    text-align: center;
+    
+    
+}
+/* table for photos  */
+#tablePhotos {
+    margin: auto;
+    width: 40rem;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+}
+/* table photo 1 */
+#tf1 {
+    width: 15rem;
+    height: auto;
+}
+/* table photo 2 */
+#tf2 {
+    width: 15rem;
+    height: auto;
+}
+/* table photo 3 */
+#tf3 {
+    width: 14rem;
+    height: auto;
+}
+#tf4 {
+    width: 15rem;
+    height: auto;
+}
+#tf5 {
+    width: 23rem;
+    height: auto;
+}
+#tf6 {
+    width: 19rem;
+    height: auto;
+}
+/* text under things to do photos */
+#labels {
+    font-family: 'Architects Daughter';
+    font-size: 1.5rem;
+    text-align: center;
 }
